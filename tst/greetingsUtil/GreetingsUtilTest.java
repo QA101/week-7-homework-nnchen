@@ -9,22 +9,29 @@ public class GreetingsUtilTest {
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		gu = new GreetingsUtil();
+		driver.findElement(By.id("place_holder")).click();
+			System.out.println("Greetings!");
 	}
 
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		driver.findElement(By.id("place_holder")).click();
+			System.out.println("How are you?");
+	
 	}
 
 
 	@Before
 	public void setUp() throws Exception {
+		driver.findElment(By.id("place_holder)).click();
 	}
-
+	
 
 	@After
 	public void tearDown() throws Exception {
+		driver.findElement(By.id("place_holder)).click();
+			System.out.println("Good, thanks!");
 	}
 
 	@Test
