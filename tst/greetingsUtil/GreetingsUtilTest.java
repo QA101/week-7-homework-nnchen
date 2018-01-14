@@ -1,3 +1,5 @@
+//Author: Nicole C +I added test steps
+
 package greetingsUtil;
 
 import static org.junit.Assert.*;
